@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'jashureddy027/jenkins-cicd-demo'
+        DOCKER_IMAGE = 'jashureddu027/jenkins-cicd-demo'
         DOCKER_CREDENTIALS = 'dockerhub-cradentials'
     }
 
